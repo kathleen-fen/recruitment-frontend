@@ -8,5 +8,9 @@ export default {
       path: "/Reset",
       component: () => import("./Reset/sandbox/Reset.vue"),
     },
+    {
+      path: "/FeedPreview",
+      component: () => import("./FeedPreview/sandbox/FeedPreview.vue"),
+    },
   ],
 };
