@@ -1,4 +1,5 @@
 <template>
+<!-- feed component -->
   <div>
     <FeedPreview url="https://www.gamespot.com/feeds/mashup/"></FeedPreview>
   </div>
@@ -8,12 +9,7 @@ import FeedPreview from "./../src/FeedPreview";
 
 export default {
   name: "FeedPreviewSandbox",
-  components: { FeedPreview },
-  data() {
-    return {
-      
-    }
-  }
-};
+  components: { FeedPreview }
+}  
 </script>
 <style lang="scss" scoped></style>
